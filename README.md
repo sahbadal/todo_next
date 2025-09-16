@@ -23,14 +23,14 @@ Run the following commands step by step:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/todo-next.git
-cd todo-next
+git clone https://github.com/sahbadal/todo_next.git
+cd todo_next
 
 # 2. Install dependencies
 npm install
 
 # 3. Create .env file and add your MongoDB URI
-echo "MONGODB_URI=your_mongodb_connection_string" > .env
+MONGODB_URI=your_mongodb_connection_string" 
 
 # 4. Run the development server
 npm run dev
